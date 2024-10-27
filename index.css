@@ -22,21 +22,14 @@ body{
     text-align: center;
     width: 100%;
 }
-header h1{
-    margin: 0px;
-}
-main{
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-}
+
 .container{
     background-color: #FAC070;
-    min-height: 350px;
-    margin:0px auto;
+    height: 350px;
+    margin:auto;
     border-radius: 20px;
     padding: 20px;
-    width: 97%;
+    width: 95%;
     max-width: 400px;
 }
 
