@@ -5,30 +5,39 @@
 }
 
 html, body{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 body{
     background-color:#f1faee ;
     font-family: monospace;
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-between;
+    margin: auto;
     text-align: center;
     width: 100%;
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+h1{
+    margin: 20px 0;
+}
 .container{
     background-color: #FAC070;
-    height: 350px;
+    height:400px;
     margin:auto;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 8px;
     width: 95%;
     max-width: 400px;
     overflow-y:auto;
@@ -109,6 +118,8 @@ label{
     list-style-type: none;
     padding-left: 0px;
 }
+.liUl{
+}
 .liUl, .ulTask, .list{
     padding-left: 0px;
     margin-top: 20px;
@@ -123,13 +134,16 @@ label{
     max-width: 100%;
 }
 
-
+footer{
+    margin-top:auto ;
+}
 .footBottom{
     background-color: #121;
     color: #f1faee;
     padding:1px 0;
-    margin: 10px 0px 0px 0px;
+    margin:10 0 0 0;
     text-align: center;
+    flex-shrink: 0;
 }
 .designer{
     text-transform: uppercase;
