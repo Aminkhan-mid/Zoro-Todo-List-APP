@@ -22,30 +22,19 @@ body{
     text-align: center;
     width: 100%;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-h1, h2{
-    margin: 0;
-}
-h1{
-    font-size: 35px;
-    margin-bottom: 6px;
-}
+
+
 
 .container{
     background-color: #FAC070;
-    height:400px;
+    height:100vh;
     margin:auto;
+    margin-bottom: 10px;
     border-radius: 10px;
     padding: 20px;
     width: 95%;
     max-width: 400px;
-    overflow-y:auto;
+    overflow:auto;
 }
 
 label{
@@ -146,7 +135,7 @@ footer{
     background-color: #121;
     color: #f1faee;
     padding:1px 0;
-    margin:10 0 0 0;
+    margin:10 0px 0px 0px;
     text-align: center;
     flex-shrink: 0;
 }
