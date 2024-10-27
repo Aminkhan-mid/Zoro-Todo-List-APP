@@ -29,9 +29,14 @@ main{
     align-items: center;
     flex-grow: 1;
 }
-h1{
-    margin: 20px 0;
+h1, h2{
+    margin: 0;
 }
+h1{
+    font-size: 35px;
+    margin-bottom: 6px;
+}
+
 .container{
     background-color: #FAC070;
     height:400px;
