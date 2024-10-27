@@ -52,7 +52,7 @@ label{
     margin:10px auto;
     border: 2px solid #B7F397;
     box-shadow: 0px 0px 5px #B7F397;
-    transition: all 0.6s ease;
+    transition: all 1s ease;
 }
 .inputEl:hover{
     box-shadow: 3px 3px 3px darkgreen;
