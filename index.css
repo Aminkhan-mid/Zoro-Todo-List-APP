@@ -31,6 +31,7 @@ body{
     padding: 20px;
     width: 95%;
     max-width: 400px;
+    overflow-y:auto;
 }
 
 label{
