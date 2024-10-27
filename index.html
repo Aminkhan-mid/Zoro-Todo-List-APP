@@ -14,13 +14,15 @@
     <header>
         <h1>Zoro Todo List</h1>
     </header>
-
+    
     <main>
         <section class="container" id="container">
                 <label for="input-el">Enter Task: </label>
                 <input class="inputEl" type="text" id="input-el" name="todolist" placeholder="Lift 500 Kgs of Weight">
-                <button class="addBtn" id="add-btn">Add Task</button>
-                <button class="delBtn" id="del-all">Delete All</button>
+                <div class="flexBtn">
+                    <button class="addBtn" id="add-btn">Add Task</button>
+                    <button class="delBtn" id="del-all">Delete All</button>
+                </div>
                 <div class="liUl">
                     <ul class="ulTask" id="task-list">
                     </ul>
